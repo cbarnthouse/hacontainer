@@ -17,5 +17,5 @@ jobs:
       run: docker build . --file Dockerfile --tag cbha:latest
 
     - name: Publish
-      run: docker push ha-custom:latest
+      run: docker push cbarnthouse/ha-custom:latest
 
